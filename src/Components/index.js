@@ -1,6 +1,6 @@
-import { PanelTask } from "./molecules";
+import { Pagination, PanelTask } from "./molecules";
 import { Container } from "./organisms";
 
 
 
-export { PanelTask,Container }
+export { PanelTask,Container,Pagination }

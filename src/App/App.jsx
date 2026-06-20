@@ -1,11 +1,11 @@
-import { PanelTask,Container } from "../Components";
+import { PanelTask,Container,Pagination } from "../Components";
 
-function App(){
-
+function App({ apiReset }){
     return(
         <>
             <PanelTask />
             <Container />  
+            <Pagination />
         </>      
     )
 }

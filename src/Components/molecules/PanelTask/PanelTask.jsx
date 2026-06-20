@@ -1,5 +1,5 @@
 import { useDispatch,useSelector } from "react-redux"
-import { taskTodo,taskText } from '../../../Store/AddTodo/listTodo.js'
+import { taskTodo,taskTextAdd } from '../../../Store/AddTodo/listTodo.js'
 
 function PanelTask(){
 
@@ -13,7 +13,7 @@ function PanelTask(){
 
     return(
         <form onSubmit={(e) => addTask(e)}>
-            <input value={text} onChange={(e) => dispatch(taskText(e.target.value))} type="text"/>
+            <input value={text} onChange={(e) => dispatch(taskTextAdd(e.target.value))} type="text"/>
             <button>add</button>
         </form>
     )
